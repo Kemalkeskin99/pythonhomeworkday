@@ -51,3 +51,22 @@ print("-----------------------------------")
 #bytes, bytearray, memoryview
 number=bytes(20)
 print(number)
+
+#şart blogu ornegı 
+userName="aliçamli@hotmail.com"
+password=123456789
+
+if userName=="aliçamli@hotmail.com" and password==1123456789:
+    print("account open")
+else:
+    print("username or password false")
+
+
+completionSratio=0
+lessonfinish=True
+
+if lessonfinish==True:
+    completionSratio+10
+    print( completionSratio+10)
+else:
+    print( completionSratio)
